@@ -22,8 +22,6 @@ def homepage(request):
         "/static/images/slideshow/17.png",
         "/static/images/slideshow/18.jpg",
         "/static/images/slideshow/19.jpg",
-
-
         ]
     return render(request, 'homepage.html', {'image_paths': image_paths})
 
